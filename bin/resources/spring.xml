@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+<bean id="c" class="com.cubic.classes.Car">
+<constructor-arg value="maruti"></constructor-arg>
+<constructor-arg >
+<bean id="eng" class="com.cubic.classes.Engine">
+<constructor-arg value="2016"></constructor-arg>
+</bean></constructor-arg>
+</bean>
+
+</beans>
